@@ -11,4 +11,4 @@ Numbers
 The user must chose one option. 
 
 Once the user has chosen which characters it wants it will generate the password and put it in the box. 
-Link:
+Link:https://raynagweinreb.github.io/PasswordGenerator/.
