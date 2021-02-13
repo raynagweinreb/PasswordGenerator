@@ -12,3 +12,4 @@ The user must chose one option.
 
 Once the user has chosen which characters it wants it will generate the password and put it in the box. 
 Link:https://raynagweinreb.github.io/PasswordGenerator/.
+[![Pssword-Generator-Screen-Shot.png](https://i.postimg.cc/W1rNDJvj/Pssword-Generator-Screen-Shot.png)](https://postimg.cc/fVznpyyg)
