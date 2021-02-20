@@ -26,8 +26,11 @@ function writePassword() {
 
   if (!userInput){
     alert('Please enter a value between 8 and 128');
-  } else if (userInput <8|| enter > 128){
+  } else if (userInput <8){
     userInput = parseInt(prompt('Please enter a value between 8 and 128'));
+  }
+    else if (userInput >128){
+      userInput = parseInt(prompt('Please enter a value between 8 and 128'));
   } else {
     // prompt the rest of the questions 
     confirmNumber = confirm('Do you want your password to contain numbers?');
@@ -100,7 +103,8 @@ for (var i = 0; i < userInput; i++) {
   var selectChoices = choices[Math.floor(Math.random()* choices.length)];
   password.push(selectChoices);
 }
-passwordText.value = password;
+finalPassword = password.join("");
+passwordText.value = finalPassword;
 }
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
